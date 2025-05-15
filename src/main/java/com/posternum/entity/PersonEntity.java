@@ -15,6 +15,8 @@ public class PersonEntity {
     @Column(name = "text")
     private String person;
 
+    public PersonEntity() {}
+
     public PersonEntity(UUID id, String person) {
         this.id = id;
         this.person = person;
